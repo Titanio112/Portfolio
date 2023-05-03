@@ -29,6 +29,8 @@
     align-items: center;
     margin: .5rem;
     font-size: 1.125rem;
+    background-repeat:no-repeat;
+    background-size:contain;
 }
 
 .information p::before {
@@ -36,8 +38,21 @@
     display: inline-block;
     width: 1rem;
     height: 1rem;
+    margin-right: 1rem;
+}
+
+.information .job {
     background-image:url(/assets/img/icons/job.svg);
-    background-repeat:no-repeat;
-    background-size:contain;
-    margin-right: .5rem;
+}
+
+.information .location {
+    background-image:url(/assets/img/icons/location.svg);
+}
+
+.information .phone {
+    background-image:url(/assets/img/icons/phone.svg);
+}
+
+.information .email {
+    background-image:url(/assets/img/icons/email.svg);
 }
