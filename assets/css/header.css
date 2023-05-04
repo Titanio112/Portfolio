@@ -56,3 +56,29 @@
 .information .email {
     background-image:url(/assets/img/icons/email.svg);
 }
+
+@media only screen and (min-width: 785px) {
+    .header {
+        display: grid;
+        grid-template-areas:
+        "photo title"
+        "photo information"
+        ;
+    }
+    
+    .header .photo{
+        grid-area: photo;
+        margin: 0 auto;
+    }
+    
+    .header .title{
+        grid-area: title;
+        text-align: start;
+        max-width: 200px;
+    }
+    
+    .header .information{
+        grid-area: information;
+    }
+
+}
