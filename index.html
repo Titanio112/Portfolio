@@ -19,12 +19,13 @@
     <link rel="stylesheet" href="assets/css/header.css">
     <link rel="stylesheet" href="assets/css/acordeon.css">
     <link rel="stylesheet" href="assets/css/languages.css">
-
+    <link rel="stylesheet" href="assets/css/portfolio.css">
+    
 </head>
 
 <body>
 
-    <div class="main">
+    <main class="main">
         <header class="header">
             <img src="/assets/img/my-photo.png" alt="Foto de Titanio112" class="photo">
 
@@ -33,8 +34,12 @@
             <div class="information">
                 <p class="job">Junior Developer</p>
                 <p class="location">Minas Gerais - BR</p>
-                <p class="phone">(35) 9 9999-9999</p>
-                <p class="email">ex@mail.com</p>
+                <p class="phone">
+                    <a href="tel:(35) 99250-1102">(35) 9 9999-9999</a>
+                </p>
+                <p class="email">
+                    <a href="mailto:aphmgbr@gmail.com">ex@mail.com</a>
+                </p>
             </div>
         </header>
 
@@ -51,7 +56,26 @@
                 </ul>
             </div>
         </section>
-    </div>
+
+        <section class="acordeon open">
+            <button class="trigger" type="button">
+                Portifólio
+            </button>
+
+            <div class="content">
+                <ul class="portfolio">
+                    <li>
+                        <span class="title github" Cria>Pokedex criado com HTML,CSS,JS</span>
+                        <a href="https://github.com/Titanio112/Pokedex" target="_blank">Pokedex</a>
+                    </li>
+                    <li>
+                        <span class="title github" Cria>Portifólio criado com HTML,CSS,JS</span>
+                        <a href="https://github.com/Titanio112/Portfolio" target="_blank">Portifólio</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
 
     <script src="/assets/js/acordeon.js"></script>
 </body>
