@@ -45,7 +45,7 @@ function updateLanguages(profileData) {
     updateSoftSkills(profileData)
     updateHardSkills(profileData)
     updateLanguages(profileData)
-    
+
     console.log(profileData)
 })()
 
