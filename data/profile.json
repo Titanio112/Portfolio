@@ -8,15 +8,15 @@
   "skills": {
     "hardSkills": [
       {
-        "nome": "Android",
+        "name": "Android",
         "logo": "TODO"
       },
       {
-        "nome": "Java",
+        "name": "Java",
         "logo": "TODO"
       },
       {
-        "nome": "Kotlin",
+        "name": "Kotlin",
         "logo": "TODO"
       }
     ],
