@@ -118,15 +118,11 @@
       "github": true
     } 
   ],
-  "experiencias": [
+  "professionalExperience": [
     {
-      "nome": "Education Tech Lead ",
-      "descricao": "",
-      "instituicao": "Digital Innovation One (DIO)",
-      "periodo": {
-        "inicio": "03/2021",
-        "fim": "Atualmente"
-      }
+      "name": "Em busca de experiência",
+      "period": "",
+      "description": "No momento estou a procura da primeira oportunidade de emprego."
     }
   ]
 }
